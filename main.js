@@ -120,6 +120,3 @@ sort.addEventListener('click', () => {
         paragraph[i].innerHTML = arr[i];
     }
 });
-
-
-// yazı çox olduqda daşma baş verir
