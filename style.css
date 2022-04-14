@@ -46,11 +46,15 @@ h1 {
     margin-left: 280px;
     /* buna sonradan bax */
     cursor: pointer;
-    fill: #C4C4C4;
+    /* fill: #C4C4C4; */
+    background: url(../to-do-list/symbol/sort-down.png);
+    width: 25px;
+    height: 15px;
 }
 
 .sort:hover {
-    fill: #000;
+    background: url(../to-do-list/symbol/sort-down-black.png);
+    transition: 0.3s;
 }
 
 .content {
@@ -68,7 +72,7 @@ h1 {
 
 .text {
     height: 35px;
-    width: 215px;
+    max-width: 215px;
     border: none;
     font-size: 14px;
     list-style: 16px;
@@ -79,7 +83,16 @@ h1 {
     display: flex;
     align-items: center;
     cursor: pointer;
+    background: url(../to-do-list/symbol/cancel.png);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
     /* reng deyisilmesi */
+}
+
+.rmvBtn:hover {
+    background: url(../to-do-list/symbol/cancel-hover.png);
+    transition: 0.3s;
 }
 
 .tasks {
@@ -106,6 +119,10 @@ h1 {
     margin-bottom: 0;
 }
 
+.taskText {
+    width: 200px;
+}
+
 .button {
     display: block;
     position: relative;
@@ -128,9 +145,18 @@ h1 {
     width: 42px;
     height: 42px;
     line-height: 42px;
+    transition: 0.5s;
     background: #9953F1;
     border-radius: 50%;
     position: absolute;
     left: 0;
     top: 0;
+}
+
+.button:hover::before {
+    width: inherit;
+    border-radius: inherit;
+    font-size: 25px;
+    transition: 0.5s;
+    transition-timing-function: ease;
 }
