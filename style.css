@@ -81,6 +81,10 @@ h1 {
     outline: none;
 }
 
+.text::placeholder {
+    color: red;
+}
+
 .rmvBtn {
     display: flex;
     align-items: center;
@@ -89,7 +93,6 @@ h1 {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    /* reng deyisilmesi */
 }
 
 .rmvBtn:hover {
@@ -160,5 +163,7 @@ h1 {
     border-radius: inherit;
     font-size: 25px;
     transition: 0.5s;
+    color: #02e1ff;
     transition-timing-function: ease;
+    box-shadow: 0px 2px 6px 2px #b490e1;
 }
