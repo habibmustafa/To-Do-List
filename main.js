@@ -1,7 +1,7 @@
 // Variables
 const content = document.querySelector('.content');
 const text = document.querySelector('.text');
-const rmvBtn = document.querySelector('.rmvBtn')
+const rmvBtn = document.querySelector('.rmvBtn');
 const button = document.querySelector('.button');
 const sort = document.querySelector('.sort');
 const tasks = document.querySelector('.tasks');
