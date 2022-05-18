@@ -2,4 +2,4 @@
 Bootcamp(Algoritmika) Project-2
 
 
-https://habibmustafa.github.io/to-do-list/
+https://habibmustafa.github.io/To-Do-List/
