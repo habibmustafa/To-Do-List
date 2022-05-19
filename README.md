@@ -1,4 +1,4 @@
-# to-do-list
+# List of tasks
 Bootcamp(Algoritmika) Project-2
 
 
